@@ -8,4 +8,4 @@ IMPORTANT:
 
 "git pull" is used when the changes are made directly on the GitHub repository to your local computer and branch.
 
-If the chages needs to be done directly between branches in your local computer, we use "git merge".
+If the changes needs to be done directly between branches in your local computer, we use "git merge".
