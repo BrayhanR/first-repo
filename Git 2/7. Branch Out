@@ -1,0 +1,29 @@
+# Branches
+
+Whereas forks are copies of the code made outside the repository, branches are copies of the code made inside the repository. 🌿
+
+On GitHub, you may notice the word “main” (sometimes “master”) as the default branch name on a repository.
+
+The main branch is your "main timeline", or your primary branch. From this branch, we're able to create versions of the code within the same repository without changing the main branch.
+
+Branches can stem from either the main branch or other existing branches, and later lead back to the main branch with a "PR" (Pull Request). This allows you to work on different features or fixes without affecting the main code until you're ready to merge your changes.
+
+This is especially useful when working in a team, as it allows multiple people to work on different features simultaneously without interfering with each other's work.
+
+## Working on a Branch
+
+By default, you'll be on the main branch unless specified otherwise on GitHub. You'll typically want to branch out from the main branch to work on your desired feature or version.
+
+We do so by using the following command:
+
+    git branch new-branch-name
+
+The git branch command creates a new branch from the branch you're currently on. You can switch to that branch with git switch:
+
+    git switch new-branch-name
+
+You can also create and switch to a new branch in a single command:
+
+    git checkout -b <new-branch-name> 
+
+This branch now becomes your coding playground, where you can switch around and change code as needed and to your liking!
