@@ -1,0 +1,7 @@
+# Working with a Team
+
+Codédex has teammates around the world in different time zones. But how the heck do we (and countless other tech companies and open-source projects) manage to work on the same codebase without stepping on each other's toes?
+
+In this chapter, we'll dive into how Git and GitHub make collaboration possible. We'll cover all the bases to understand how something like this works!
+
+First thing first, cloning... And no, we are not talking about cloning DNA in Jurassic Park, we are talking about repo cloning!
