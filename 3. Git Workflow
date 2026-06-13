@@ -38,3 +38,31 @@ To only stage files with a specified extension:
 git add *.html
 
 Here, the command will only add .html files.
+
+## Git Commit
+
+Committing files are about saving a "snapshot" of the current code. 💾 Each commit captures a moment in time and includes a helpful message to explain what changed. This helps you track your progress and separate different actions in your code.
+
+Now that we are ready to commit your staged files, use the following command:
+
+git commit -m 'Your commit message here!'
+
+The lowercase -m flag means "message".
+
+Here's what some commit messages might look like for a typical project:
+
+'Initial commit'
+'Add pics to homepage'
+'Fixed again fr this time!!'
+Note: Commit messages get silly when you're working on your own for a while 😛, but short, clear, and descriptive messages are needed when working on a team! We want messages to help you (and your team) understand what changed and why.
+
+If the commit is succesful, you should see a message appear in the terminal, something like:
+
+git commit -m 'Updated index.html with a new line'
+
+[main 09f4acd] Updated index.html with a new line
+ 1 file changed, 1 insertion(+)
+
+Pretty useful, right? Commit messages are almost like journal entries.
+
+Let's continue and get our project to the local repo!
