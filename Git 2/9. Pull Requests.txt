@@ -1,0 +1,46 @@
+# Proposing Changes
+
+During development or open source contribution, you're going to want to add changes from your created branches to the main branch.
+
+A Pull request (PR) allows you to suggest changes to the repository and allows you to create edits from one branch to another. PRs are just merges, but instead of just allowing you to merge branches in the same repository, they also allow you to merge branches across repositories.
+
+A pull request will show you what parts of the code you are comparing, changes made, and a list of your commit history, which helps you identify what exactly you'll be changing.
+
+Once the team successfully reviews your suggested code and approves any necessary changes, this pull request will be merged into the default branch!
+
+## Creating a PR
+
+To create a pull request,
+
+- You should have pushed changes to the repository itself or a forked version of that repository.
+- You don't have any merge conflicts. You can make sure of this by having your local repository up to date with your remote repository.
+
+You can locate the pull requests at the top of the repository.
+
+    'Pull Request' tab located  between 'Issues' and 'Actions' tabs on GitHub repo page
+
+Click the “New Pull Request” button.
+
+    Green 'New pull request' button
+
+Here, you can choose the branches you'll be comparing. Note that you'll also sometimes see a “Compare and Pull Request” button that can also take you to make a PR.
+
+Once you take a look at any necessary code changes, you can add a title for your pull request and a description. Some repositories will have specific guidelines for you to follow in your description to add any necessary information, while others, or even your own may not follow any particular structure.
+
+A PR “merge” will act like any other commit to a branch, so your title should be as descriptive as you can, similar to a commit message! This helps other developers know and understand what code is being changed from a glance.
+
+    Form for creating a new pull request
+
+Once created, you or your code approvers, depending on your repository permissions, can approve, request changes, or add comments to your code! This allows you to merge your branch.
+
+## The PR Checklist
+
+Pull requests are essential to the Git development workflow, and once you know you're ready to create a PR, review the following steps to ensure a smooth integration! ✅
+
+1. Pull the latest changes from the main, or default branch.
+
+    git pull origin main
+
+2. Test your code! Make sure that everything works or shows up as intended.
+3 Review your code! Make sure that when committing, everything is as you wrote, your code is polished, and anything not needed is removed (for example, console.logs or print statements)
+4. Fix any merge conflicts!
