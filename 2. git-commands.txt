@@ -1,0 +1,43 @@
+## Git init
+
+The git init command initializes a new Git repo (local repo). It's the first command you run when you have a new project and want to start tracking changes. The history of your project starts here!
+
+git init
+
+When you run this command, Git will create a new directory named .git in your project folder. This directory contains all the information about your project's history and configuration.
+
+The terminal will return something like this once done successfully:
+
+Initialized empty Git repository in /Users/username/Desktop/python/.git
+
+Think of this like turning a normal computer folder into a Git-tracked project.
+
+## Git Remote 
+
+Local repo? Check. Remote repo? Check. Now, we can connect our local repo with our remote repo.
+
+The git remote command manages connections to remote repos. We can add a connection by:
+
+git remote add origin <repository_url>
+
+add: Add a new remote connection.
+origin: Give a nickname for the remote repo's URL (origin is a common one).
+<repository_url>: Placeholder for the remote repo's URL.
+
+Our example would be:
+
+git remote add origin https://github.com/BrayhanR/first-repo
+
+Here we're telling Git: "Yo, connect my local repo to the first-repo remote repo, and I’ll call the URL origin."
+
+Now, we have our local and remote repos connected! 🤝
+
+## Git Branch
+
+Let's now rename the branch to main. This will be the branch we push code to, and will be default branch.
+
+git branch -M main
+
+The uppercase -M flag means "move" (or "rename"). We'll discuss what branches are later in the chapter.
+
+Let's put our new Git commands to the test!

@@ -1,0 +1,40 @@
+# Working Directory & Staging
+
+Now that we've connected our local & remote repos, let's turning the project folder into the local repo.
+
+The two main Git commands that we will use are git add and git commit.
+
+But first, we have to make a distinction between the working directory and the staging area:
+
+    💻 Working directory is the project folder on your computer! When you make changes to the files, Git tracks them, and you can move selected changes to the staging area using the git add command.
+    📋 Staging area is where we prep changes, like "I'm almost ready! One more min!" It's a temporary area where you choose what files you want to "commit" to the local repo with git commit.
+
+## Git Add
+
+The git add command tells Git which changes you want to include in the next commit. Think of it like packing your suitcase before a trip – it's choosing what to bring.
+
+Here are three variations...
+
+1️⃣ Add one file
+
+To add a single file to the staging area:
+
+git add example.txt
+
+Here, the command will only add the example.txt file.
+
+🔡 Add all files
+
+To add all the changed files to the staging area:
+
+git add .
+
+Here, any new file added or changed to the working directory will be included.
+
+*️⃣ Add all files with an extension
+
+To only stage files with a specified extension:
+
+git add *.html
+
+Here, the command will only add .html files.

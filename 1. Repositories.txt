@@ -1,0 +1,3 @@
+Git is the tool that allows software engineers to track changes, while GitHub is the website that hosts Git repositories. Simply put, GitHub was built on top of Git, so we cannot use GitHub without Git.
+
+Code is stored in repositories or repos on GitHub, which are like folders for your files and assets (e.g. images, videos, audios, fonts). 📁
