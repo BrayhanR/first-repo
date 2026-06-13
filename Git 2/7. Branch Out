@@ -26,6 +26,9 @@ You can also create and switch to a new branch in a single command:
 
     git checkout -b <new-branch-name> 
 
+<<<<<<< HEAD
+This branch now becomes your coding playground, where you can switch around and change code as needed and to your liking
+=======
 This branch now becomes your coding playground, where you can switch around and change code as needed and to your liking
 
 NOTE:
@@ -35,3 +38,4 @@ In order to add the new branch, we need to make a push into the new one like thi
 On the new branch, we write:
 
     git push -u origin new-branch-name
+>>>>>>> 7490a60714bb191c43052e8561208341af1ba87a
