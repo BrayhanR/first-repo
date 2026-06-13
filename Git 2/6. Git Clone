@@ -1,0 +1,54 @@
+# Working with a Team
+
+Codédex has teammates around the world in different time zones. But how the heck do we (and countless other tech companies and open-source projects) manage to work on the same codebase without stepping on each other's toes?
+
+In this chapter, we'll dive into how Git and GitHub make collaboration possible. We'll cover all the bases to understand how something like this works!
+
+First thing first, cloning... And no, we are not talking about cloning DNA in Jurassic Park, we are talking about repo cloning!
+
+# Cloning
+
+Consider this: you want to work on a project that someone else has already started. You need a way to get a copy of their work onto your own computer so you can make changes, add features, or fix bugs.
+
+This is where cloning comes into play! Cloning happens when a repository is already made on GitHub, and you copy that remote repository to your local machine.
+
+We're able to clone a repository using the git clone command, like this:
+
+    git clone https://github.com/YOUR_USERNAME/EXAMPLE_REPO.git
+
+Where YOUR_USERNAME is your GitHub username and EXAMPLE_REPO is the name of the repository you want to clone.
+
+Note: You don't need to write anything in the terminal yet! This is just an example of the command you'll use later.
+
+This link is quickly accessible to copy from the button labeled “Code” on a GitHub repository!
+
+
+Once cloned, there's a folder named after the repository now saved on your computer. You can use the cd command to access all the files inside of it and you'll be able to open the folder in a code editor (like VS Code) to start adding your changes!
+
+# Permissions
+
+You're able to clone any repository, but to see changes reflected on the repositories, you'll need what's called, "write access".
+
+Write access is granted by the owner of the repository to allow you to make commits, create branches, and overall change the remote repository.
+
+Here are the common types of permissions that GitHub offers for repositories:
+
+    Access Type             Description
+
+    👀 Read	Users           can view the repository and clone it.
+    📝 Write	            Users can read the repository and make changes, create branches, and push modifications.
+    👑 Admin	            Full control: manage settings, access permissions, and delete repo.
+
+# Forking
+
+Wait… What if you don't have write access or you're not allowed to make changes? There's forking!
+
+Forking is a process where you create a personal copy of someone else's repository on GitHub. 🍴
+
+Think of it as copying down your grandma's cherry pie recipe. If you're making a change to the recipe, you'll make the changes on your own copy, not the original recipe. Similarly, a "fork" from a repository allows you to freely experiment with changes without affecting the original project!
+
+To fork a repository, you'll notice that the top of the repository may look something like this:
+
+Clicking on the "Fork" button, and following the steps, creates and moves a copy to your GitHub account.
+
+You'll then have ownership access to the copied repository.
