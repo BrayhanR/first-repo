@@ -26,4 +26,4 @@ You can also create and switch to a new branch in a single command:
 
     git checkout -b <new-branch-name> 
 
-This branch now becomes your coding playground, where you can switch around and change code as needed and to your liking!
+This branch now becomes your coding playground, where you can switch around and change code as needed and to your liking
