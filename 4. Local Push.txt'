@@ -1,0 +1,56 @@
+# Finally...
+
+We are almost done! It's time to move our code from the local repo to the remote repo on GitHub.
+
+But before we push our code to GitHub, we need to make sure we have the correct files commited!
+
+## Git Status
+
+The git status command is used to check the status of your files. It is a handy command that will show you which files are staged, unstaged, and untracked.
+
+Staged files are ready to be committed.
+Unstaged files are not yet ready to be committed.
+Untracked files are new files that Git has not seen before.
+Simply run the following command to check the status of your files:
+
+git status
+
+In short, you are saying, "Hey Git, what's the situation right now?"
+
+An example response would be:
+
+On branch main
+
+No commits yet
+
+Untracked files:
+
+  .DS_Store
+  test.py
+  output.gif
+
+Use git status anytime you're confused about the state of your repo.
+
+## Git Push
+
+Let's now use the command we'll use to finally "push" or publish our code! This is the last step.
+
+The git push command is used to send your locally committed changes to your remote repository. You'll see all the changes you've made on GitHub.
+
+1️⃣ First time
+
+The very first time you push to a branch, the command usually looks like this:
+
+git push -u origin main
+
+The -u flag stands for "upstream". This links your local branch to the remote branch so that future push commands will automatically apply to this branch without needing to specify it each time. ✨
+
+2️⃣ Every other time
+
+Once that's set, any commits you push to this branch will just require:
+
+git push
+
+When that's done, you'll be able to refresh your GitHub repository URL, and see your changes online!
+
+Instructions
