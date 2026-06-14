@@ -18,4 +18,9 @@ git branch -M main
 git add .
 git commit -m 'Your commit message here!'
 git status
-git push -u origin main
+git push -u origin main 
+git push
+
+NOTE:
+
+git push -u origin <branch> is only use once, we used it when we create a branch or when we set up for the first time our workplace, we don't need to use it again after we used once, so we jump directly from 'git commit -m 'message'' to 'git push.'
